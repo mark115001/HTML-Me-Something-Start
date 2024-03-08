@@ -42,3 +42,8 @@ footer{
 p {
     margin: 0;
 }
+
+.pictureTop{
+    display: inline-block;
+    vertical-align: top;
+}
