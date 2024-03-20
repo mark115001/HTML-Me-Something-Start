@@ -4,6 +4,7 @@ body{
     margin: 8px;
     display: block;
     font-family: sans-serif;
+    width: 700px;
 }
 
 h1 {
@@ -37,13 +38,24 @@ footer{
 .ship{
     height: 200px;
     width: 300px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 p {
     margin: 0;
 }
 
-.pictureTop{
-    display: inline-block;
-    vertical-align: top;
+.paraDiv {
+
+    width: 700px;
+    margin-bottom: 30px;
+
 }
+
+.pictureDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    float:left
+}
+
